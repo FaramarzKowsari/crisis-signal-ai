@@ -6,17 +6,31 @@ on:
     paths:
       - "docs/**"
       - "mkdocs.yml"
+      - "scripts/validate_search_assets.py"
+      - ".github/workflows/docs.yml"
+  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  deploy:
+  validate-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install mkdocs-material pymdown-extensions
-      - run: mkdocs gh-deploy --force
+
+      - name: Install documentation dependencies
+        run: pip install mkdocs-material pymdown-extensions
+
+      - name: Build documentation
+        run: mkdocs build --strict
+
+      - name: Validate robots, sitemap and indexability
+        run: python scripts/validate_search_assets.py
+
+      - name: Deploy GitHub Pages
+        run: mkdocs gh-deploy --force
