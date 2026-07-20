@@ -24,7 +24,7 @@ jobs:
       - run: pip install -e ".[dev,api]"
       - run: ruff check .
       - run: pytest --cov=crisis_signal --cov-report=xml
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         if: matrix.python-version == '3.12'
         with:
           name: coverage-xml
