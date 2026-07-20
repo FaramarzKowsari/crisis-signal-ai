@@ -2,12 +2,13 @@ cff-version: 1.2.0
 message: "If you use this software, please cite the repository and the companion book when relevant."
 title: "CrisisSignal AI"
 type: software
+abstract: "A research and engineering platform for trustworthy, multilingual and multimodal crisis intelligence from noisy social streams."
 authors:
   - family-names: "Kowsari"
     given-names: "Faramarz"
     orcid: "https://orcid.org/0000-0003-1692-0453"
-repository-code: "https://github.com/FaramarzKowsari/NLP-Disaste-Tweets-LSTM-Colorado"
-url: "https://github.com/FaramarzKowsari/NLP-Disaste-Tweets-LSTM-Colorado"
+repository-code: "https://github.com/FaramarzKowsari/crisis-signal-ai"
+url: "https://faramarzkowsari.github.io/crisis-signal-ai/"
 license: MIT
 version: 0.1.0
 date-released: 2026-07-20
@@ -17,6 +18,7 @@ keywords:
   - trustworthy AI
   - disaster response
   - multilingual NLP
+  - multimodal AI
   - MLOps
 references:
   - type: book
@@ -24,6 +26,7 @@ references:
     authors:
       - family-names: "Kowsari"
         given-names: "Faramarz"
+        orcid: "https://orcid.org/0000-0003-1692-0453"
     identifiers:
       - type: doi
         value: "10.5281/zenodo.21459117"

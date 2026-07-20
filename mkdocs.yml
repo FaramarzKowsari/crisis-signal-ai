@@ -1,8 +1,19 @@
 site_name: CrisisSignal AI
-site_description: Trustworthy crisis-intelligence engineering and research documentation
-repo_url: https://github.com/FaramarzKowsari/NLP-Disaste-Tweets-LSTM-Colorado
+site_description: Trustworthy, multilingual and multimodal crisis-intelligence engineering and research documentation
+site_author: Faramarz Kowsari
+site_url: https://faramarzkowsari.github.io/crisis-signal-ai/
+repo_url: https://github.com/FaramarzKowsari/crisis-signal-ai
+repo_name: FaramarzKowsari/crisis-signal-ai
+copyright: Copyright © 2026 Faramarz Kowsari
+
 theme:
   name: material
+  custom_dir: docs/overrides
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+
 nav:
   - Home: index.md
   - Architecture: architecture.md
@@ -16,6 +27,11 @@ nav:
   - Dataset card: dataset-card.md
   - Research roadmap: research-roadmap.md
   - Companion book: book-map.md
+  - Author and verified profiles: author.md
+
+plugins:
+  - search
+
 markdown_extensions:
   - admonition
   - attr_list
