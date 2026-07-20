@@ -1,0 +1,4 @@
+﻿legacy/** linguist-vendored
+data/** linguist-generated
+artifacts/** linguist-generated
+*.csv linguist-generated
