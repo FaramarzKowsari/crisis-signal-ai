@@ -1,4 +1,4 @@
-﻿# Companion book
+# Companion book
 
 ## Working title
 
@@ -25,10 +25,16 @@ Faramarz Kowsari is an author, Software Engineer and AI researcher based in Ista
 - [**Official Website**](https://faramarzkowsari.github.io/)
 - [**Zenodo Records**](https://zenodo.org/search?q=creators.orcid%3A%220000-0003-1692-0453%22&l=list&p=1&s=10&sort=bestmatch)
 
-### Reserved DOI
+### Book DOI
 
-**10.5281/zenodo.21459117**
+**[10.5281/zenodo.21459117](https://doi.org/10.5281/zenodo.21459117)**
 
-The reserved DOI belongs to the companion book. The software repository will receive a separate Zenodo DOI after the first tagged release.
+### Related software
 
-This directory stores publication metadata, the detailed outline, code-to-chapter mapping and citation records. The final manuscript should be versioned separately from software releases while retaining explicit links to stable repository tags.
+**CrisisSignal AI v1.0.0**
+
+Software DOI: **[10.5281/zenodo.21463318](https://doi.org/10.5281/zenodo.21463318)**
+
+The book and software are separate Zenodo records. The book provides the conceptual, research and engineering narrative, while the software record preserves the executable implementation.
+
+This directory stores publication metadata, the detailed outline, code-to-chapter mapping and citation records.

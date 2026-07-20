@@ -1,4 +1,4 @@
-﻿# CrisisSignal AI
+# CrisisSignal AI
 
 <p align="center">
   <img src="docs/assets/social-preview.svg" alt="CrisisSignal AI" width="100%">
@@ -10,11 +10,19 @@
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Code style: Ruff](https://img.shields.io/badge/code%20style-ruff-261230.svg)](https://docs.astral.sh/ruff/)
+[![Software DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21463318.svg)](https://doi.org/10.5281/zenodo.21463318)
 [![Book DOI](https://img.shields.io/badge/Companion%20Book%20DOI-10.5281%2Fzenodo.21459117-1682D4.svg)](https://doi.org/10.5281/zenodo.21459117)
 
 > **Repository status:** portfolio-grade engineering foundation with a reproducible classical NLP baseline, calibrated abstention, REST API, command-line interface, monitoring utilities, tests, Docker support, documentation, and extension points for recurrent, transformer, LLM and multimodal research.
 
 CrisisSignal AI began as a graduate deep-learning assignment for the University of Colorado Boulder. The original LSTM notebook is preserved under [`legacy/`](legacy/) for academic provenance. The project has since been redesigned as an end-to-end research and engineering platform for decision support during disasters and humanitarian crises.
+
+## Persistent identifiers
+
+- **Software release v1.0.0 DOI:** [10.5281/zenodo.21463318](https://doi.org/10.5281/zenodo.21463318)
+- **Companion-book DOI:** [10.5281/zenodo.21459117](https://doi.org/10.5281/zenodo.21459117)
+
+These identifiers describe different scholarly objects. The software DOI identifies the archived `v1.0.0` release, while the book DOI identifies the companion publication.
 
 ## Why this project matters
 
@@ -147,15 +155,19 @@ legacy/                   original Colorado Boulder assignment
 
 **Engineering Trustworthy Crisis Intelligence: From Noisy Social Streams to Multilingual, Multimodal and Human-in-the-Loop Disaster AI**
 
-Reserved DOI: **10.5281/zenodo.21459117**
+Companion-book DOI: [10.5281/zenodo.21459117](https://doi.org/10.5281/zenodo.21459117)
 
-The DOI belongs to the companion book, not to the software repository. A separate Zenodo DOI should be minted for the software after the first tagged release. Book-to-code mappings are maintained in [`book/outline.md`](book/outline.md).
+The book DOI identifies the companion publication. The archived software release has its own DOI: [10.5281/zenodo.21463318](https://doi.org/10.5281/zenodo.21463318). Book-to-code mappings are maintained in [`book/outline.md`](book/outline.md).
 
 ## Responsible-use statement
 
 This project is a research and educational system. It must not be used as the sole basis for emergency dispatch, medical triage, evacuation orders, law-enforcement action or public-warning decisions. Predictions can be wrong, biased, stale or manipulated. High-impact use requires domain experts, verified data sources, operational security, privacy review and human authorization.
 
 ## Citation
+
+To cite the archived `v1.0.0` software release:
+
+> Kowsari, F. (2026). *CrisisSignal AI* (Version 1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.21463318
 
 See [`CITATION.cff`](CITATION.cff). The companion-book BibTeX entry is available in [`book/citation.bib`](book/citation.bib).
 

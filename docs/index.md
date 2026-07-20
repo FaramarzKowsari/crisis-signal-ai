@@ -1,4 +1,4 @@
-﻿---
+---
 title: CrisisSignal AI
 description: Trustworthy, multilingual and multimodal crisis intelligence from noisy social streams, created by Faramarz Kowsari.
 ---
@@ -7,7 +7,16 @@ description: Trustworthy, multilingual and multimodal crisis intelligence from n
 
 **Trustworthy, multilingual and multimodal crisis intelligence from noisy social streams.**
 
+[![Software DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21463318.svg)](https://doi.org/10.5281/zenodo.21463318)
+
 CrisisSignal AI is a portfolio-grade research and engineering platform for trustworthy crisis-message analysis. The implemented core provides a reproducible classical baseline, uncertainty-aware routing, an API, monitoring utilities and extension points for deep learning, transformers, LLMs and multimodal evidence.
+
+## Persistent identifiers
+
+- **Software release v1.0.0 DOI:** [10.5281/zenodo.21463318](https://doi.org/10.5281/zenodo.21463318)
+- **Companion-book DOI:** [10.5281/zenodo.21459117](https://doi.org/10.5281/zenodo.21459117)
+
+The software and book are related but distinct scholarly records.
 
 ## Research and engineering scope
 
@@ -27,9 +36,9 @@ The system is intended for research, teaching and carefully supervised decision 
 
 **Engineering Trustworthy Crisis Intelligence: From Noisy Social Streams to Multilingual, Multimodal and Human-in-the-Loop Disaster AI**
 
-Reserved book DOI: [10.5281/zenodo.21459117](https://doi.org/10.5281/zenodo.21459117)
+Companion-book DOI: [10.5281/zenodo.21459117](https://doi.org/10.5281/zenodo.21459117)
 
-The book DOI is separate from the future software DOI.
+The book DOI is separate from the archived software-release DOI [10.5281/zenodo.21463318](https://doi.org/10.5281/zenodo.21463318).
 
 ## Project Creator and Verified Identity
 

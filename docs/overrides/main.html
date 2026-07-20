@@ -4,6 +4,7 @@
   {{ super() }}
   <meta name="author" content="Faramarz Kowsari">
   <meta name="creator" content="Faramarz Kowsari">
+  <meta name="citation_doi" content="10.5281/zenodo.21463318">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <meta property="og:site_name" content="CrisisSignal AI">
   <meta property="og:type" content="website">
@@ -76,14 +77,21 @@
       },
       {
         "@type": "SoftwareSourceCode",
-        "@id": "https://faramarzkowsari.github.io/crisis-signal-ai/#software",
+        "@id": "https://doi.org/10.5281/zenodo.21463318",
         "name": "CrisisSignal AI",
+        "version": "1.0.0",
         "description": "A research and engineering platform for trustworthy, multilingual and multimodal crisis intelligence.",
         "url": "https://faramarzkowsari.github.io/crisis-signal-ai/",
         "codeRepository": "https://github.com/FaramarzKowsari/crisis-signal-ai",
+        "downloadUrl": "https://doi.org/10.5281/zenodo.21463318",
         "programmingLanguage": "Python",
         "runtimePlatform": "Python 3.11+",
         "license": "https://opensource.org/licenses/MIT",
+        "identifier": "https://doi.org/10.5281/zenodo.21463318",
+        "sameAs": [
+          "https://doi.org/10.5281/zenodo.21463318",
+          "https://github.com/FaramarzKowsari/crisis-signal-ai"
+        ],
         "author": {
           "@id": "https://faramarzkowsari.github.io/#faramarz-kowsari"
         },
@@ -93,7 +101,15 @@
         "isPartOf": {
           "@id": "https://faramarzkowsari.github.io/crisis-signal-ai/#website"
         },
-        "citation": "https://doi.org/10.5281/zenodo.21459117"
+        "isSupplementTo": {
+          "@type": "Book",
+          "@id": "https://doi.org/10.5281/zenodo.21459117",
+          "name": "Engineering Trustworthy Crisis Intelligence"
+        },
+        "citation": [
+          "https://doi.org/10.5281/zenodo.21463318",
+          "https://doi.org/10.5281/zenodo.21459117"
+        ]
       }
       {% if page and page.file and page.file.src_uri == "author.md" %}
       ,{
