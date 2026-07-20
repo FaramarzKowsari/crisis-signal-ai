@@ -1,0 +1,16 @@
+{
+  "title": "Engineering Trustworthy Crisis Intelligence",
+  "subtitle": "From Noisy Social Streams to Multilingual, Multimodal and Human-in-the-Loop Disaster AI",
+  "creators": [
+    {
+      "name": "Kowsari, Faramarz",
+      "orcid": "0000-0003-1692-0453"
+    }
+  ],
+  "doi": "10.5281/zenodo.21459117",
+  "doi_status": "reserved",
+  "language": "eng",
+  "resource_type": "publication-book",
+  "related_repository": "https://github.com/FaramarzKowsari/NLP-Disaste-Tweets-LSTM-Colorado",
+  "license": "CC-BY-4.0"
+}

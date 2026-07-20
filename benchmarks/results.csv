@@ -1,0 +1,2 @@
+recorded_at,model,dataset_fingerprint,accuracy,precision,recall,f1,macro_f1,ece,status,evidence_source
+2024-09-06,legacy_lstm_notebook,not-recorded,0.7570584373,0.7217806041,0.6995377504,,,not-recorded,historical-not-reproduced,legacy/original-notebook.ipynb

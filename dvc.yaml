@@ -1,0 +1,21 @@
+stages:
+  train_baseline:
+    cmd: >-
+      crisis-signal train
+      --data ${data.path}
+      --output ${artifact.path}
+      --test-size ${data.test_size}
+      --random-state ${seed}
+      --abstain-margin ${model.abstain_margin}
+      --min-df ${model.min_df}
+    deps:
+      - ${data.path}
+      - src/crisis_signal
+    params:
+      - seed
+      - data.test_size
+      - model.min_df
+      - model.abstain_margin
+    outs:
+      - ${artifact.path}
+      - ${artifact.path}.metadata.json

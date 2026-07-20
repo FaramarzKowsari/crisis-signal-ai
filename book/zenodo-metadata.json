@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "title": "Engineering Trustworthy Crisis Intelligence: From Noisy Social Streams to Multilingual, Multimodal and Human-in-the-Loop Disaster AI",
+    "upload_type": "publication",
+    "publication_type": "book",
+    "description": "A technical book on trustworthy, multilingual and multimodal crisis-intelligence systems, linked to the CrisisSignal AI open-source repository.",
+    "creators": [
+      {
+        "name": "Kowsari, Faramarz",
+        "orcid": "0000-0003-1692-0453"
+      }
+    ],
+    "license": "cc-by-4.0",
+    "keywords": [
+      "crisis informatics",
+      "natural language processing",
+      "trustworthy AI",
+      "multilingual AI",
+      "MLOps"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/FaramarzKowsari/NLP-Disaste-Tweets-LSTM-Colorado",
+        "relation": "isSupplementedBy",
+        "resource_type": "software"
+      }
+    ]
+  }
+}

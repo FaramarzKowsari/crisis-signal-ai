@@ -1,0 +1,27 @@
+project:
+  name: crisis-signal-ai
+  random_seed: 42
+
+data:
+  text_column: text
+  target_column: target
+  test_size: 0.20
+  deduplicate: true
+
+model:
+  type: tfidf_logistic_regression
+  max_features: 40000
+  ngram_range: [1, 2]
+  min_df: 2
+  max_df: 0.98
+  class_weight: balanced
+  max_iter: 1500
+
+inference:
+  decision_threshold: 0.50
+  abstain_margin: 0.10
+
+evaluation:
+  calibration_bins: 10
+  false_negative_cost: 5.0
+  false_positive_cost: 1.0

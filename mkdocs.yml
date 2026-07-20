@@ -1,0 +1,27 @@
+site_name: CrisisSignal AI
+site_description: Trustworthy crisis-intelligence engineering and research documentation
+repo_url: https://github.com/FaramarzKowsari/NLP-Disaste-Tweets-LSTM-Colorado
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Architecture: architecture.md
+  - Reproducibility: reproducibility.md
+  - Evaluation: evaluation.md
+  - Ethics and limitations: ethics.md
+  - Deployment: deployment.md
+  - Portfolio evidence: portfolio-evidence.md
+  - DOI strategy: doi-strategy.md
+  - Model card: model-card.md
+  - Dataset card: dataset-card.md
+  - Research roadmap: research-roadmap.md
+  - Companion book: book-map.md
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format

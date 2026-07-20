@@ -1,0 +1,23 @@
+name: Research proposal
+description: Propose a benchmark, dataset or model study
+title: "[Research]: "
+labels: [research]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Research question
+    validations:
+      required: true
+  - type: textarea
+    id: protocol
+    attributes:
+      label: Evaluation protocol
+    validations:
+      required: true
+  - type: textarea
+    id: risks
+    attributes:
+      label: Data, ethics and validity risks
+    validations:
+      required: true

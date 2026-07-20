@@ -1,0 +1,9 @@
+seed: 42
+data:
+  path: data/train.csv
+  test_size: 0.2
+model:
+  min_df: 2
+  abstain_margin: 0.1
+artifact:
+  path: artifacts/baseline.joblib
