@@ -1,8 +1,8 @@
 from pathlib import Path
 
+from crisis_signal.demo import write_demo_data
 from crisis_signal.predictor import CrisisPredictor
 from crisis_signal.training import train_baseline
-from crisis_signal.demo import write_demo_data
 
 
 def test_end_to_end_training_and_prediction(tmp_path: Path) -> None:

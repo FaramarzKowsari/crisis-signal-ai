@@ -6,7 +6,6 @@ import json
 from dataclasses import dataclass
 from typing import Any
 
-
 SYSTEM_INSTRUCTION = """You are a cautious crisis-information classifier.
 Return only JSON. Do not invent evidence. When the message is ambiguous, choose
 'review'. Allowed labels: disaster, not_disaster, review. Provide a probability
