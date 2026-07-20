@@ -10,7 +10,7 @@ authors:
 repository-code: "https://github.com/FaramarzKowsari/crisis-signal-ai"
 url: "https://faramarzkowsari.github.io/crisis-signal-ai/"
 license: MIT
-version: 0.1.0
+version: 1.0.0
 date-released: 2026-07-20
 keywords:
   - crisis informatics
