@@ -1,4 +1,4 @@
-site_name: CrisisSignal AI
+﻿site_name: CrisisSignal AI
 site_description: Trustworthy, multilingual and multimodal crisis-intelligence engineering and research documentation
 site_author: Faramarz Kowsari
 site_url: https://faramarzkowsari.github.io/crisis-signal-ai/
@@ -36,6 +36,7 @@ markdown_extensions:
   - admonition
   - attr_list
   - tables
+  - pymdownx.magiclink
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid

@@ -1,4 +1,4 @@
----
+﻿---
 title: Faramarz Kowsari — Author and Verified Profiles
 description: Canonical professional biography and verified profiles of Faramarz Kowsari, author, Software Engineer and AI researcher based in Istanbul.
 ---
@@ -17,14 +17,14 @@ Faramarz Kowsari is the creator and principal maintainer of **CrisisSignal AI**,
 
 ## Official Profiles & Repositories
 
-- **Wikidata:** https://www.wikidata.org/wiki/Q140389378
-- **ORCID:** https://orcid.org/0000-0003-1692-0453
-- **Google Scholar:** https://scholar.google.com/citations?user=G7tP5WMAAAAJ&hl=en
-- **GitHub:** https://github.com/FaramarzKowsari
-- **LinkedIn:** https://www.linkedin.com/in/faramarzkowsari
-- **Google Books:** https://play.google.com/store/search?q=Faramarz_Kowsari&c=books
-- **Official Website:** https://faramarzkowsari.github.io/
-- **Zenodo Records:** https://zenodo.org/search?q=creators.orcid%3A%220000-0003-1692-0453%22&l=list&p=1&s=10&sort=bestmatch
+- [**Wikidata**](https://www.wikidata.org/wiki/Q140389378)
+- [**ORCID**](https://orcid.org/0000-0003-1692-0453)
+- [**Google Scholar**](https://scholar.google.com/citations?user=G7tP5WMAAAAJ&hl=en)
+- [**GitHub**](https://github.com/FaramarzKowsari)
+- [**LinkedIn**](https://www.linkedin.com/in/faramarzkowsari)
+- [**Google Books**](https://play.google.com/store/search?q=Faramarz_Kowsari&c=books)
+- [**Official Website**](https://faramarzkowsari.github.io/)
+- [**Zenodo Records**](https://zenodo.org/search?q=creators.orcid%3A%220000-0003-1692-0453%22&l=list&p=1&s=10&sort=bestmatch)
 
 ## Persistent identity
 
@@ -32,6 +32,6 @@ Faramarz Kowsari is the creator and principal maintainer of **CrisisSignal AI**,
 - **ORCID:** 0000-0003-1692-0453
 - **Wikidata entity:** Q140389378
 - **GitHub account:** FaramarzKowsari
-- **Official website:** https://faramarzkowsari.github.io/
+- **Official website:** [faramarzkowsari.github.io](https://faramarzkowsari.github.io/)
 
 The biography, profile links and portrait on this page are the canonical identity information used across the author's books, software repositories, scholarly profiles and publication records.
