@@ -6,7 +6,7 @@
 
 **Trustworthy, multilingual and multimodal crisis intelligence from noisy social streams.**
 
-[![CI](https://github.com/FaramarzKowsari/NLP-Disaste-Tweets-LSTM-Colorado/actions/workflows/ci.yml/badge.svg)](https://github.com/FaramarzKowsari/NLP-Disaste-Tweets-LSTM-Colorado/actions/workflows/ci.yml)
+[![CI](https://github.com/FaramarzKowsari/crisis-signal-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/FaramarzKowsari/crisis-signal-ai/actions/workflows/ci.yml)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Code style: Ruff](https://img.shields.io/badge/code%20style-ruff-261230.svg)](https://docs.astral.sh/ruff/)
@@ -70,8 +70,8 @@ flowchart LR
 ## Quick start
 
 ```bash
-git clone https://github.com/FaramarzKowsari/NLP-Disaste-Tweets-LSTM-Colorado.git
-cd NLP-Disaste-Tweets-LSTM-Colorado
+git clone https://github.com/FaramarzKowsari/crisis-signal-ai.git
+cd crisis-signal-ai
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -e ".[dev,api]"
