@@ -1,0 +1,131 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  <meta name="author" content="Faramarz Kowsari">
+  <meta name="creator" content="Faramarz Kowsari">
+  <meta name="citation_doi" content="10.5281/zenodo.21463318">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta property="og:site_name" content="CrisisSignal AI">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ page.title if page and page.title else 'CrisisSignal AI' }}">
+  <meta property="og:description" content="Trustworthy, multilingual and multimodal crisis intelligence from noisy social streams, created by Faramarz Kowsari.">
+  <meta property="og:url" content="{{ page.canonical_url }}">
+  <meta property="og:image" content="https://avatars.githubusercontent.com/u/105053743?v=4">
+  <meta property="og:image:alt" content="Faramarz Kowsari — Author, Software Engineer and AI Researcher">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ page.title if page and page.title else 'CrisisSignal AI' }}">
+  <meta name="twitter:description" content="Trustworthy, multilingual and multimodal crisis intelligence from noisy social streams, created by Faramarz Kowsari.">
+  <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/105053743?v=4">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://faramarzkowsari.github.io/#faramarz-kowsari",
+        "name": "Faramarz Kowsari",
+        "givenName": "Faramarz",
+        "familyName": "Kowsari",
+        "url": "https://faramarzkowsari.github.io/",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://avatars.githubusercontent.com/u/105053743?v=4",
+          "caption": "Faramarz Kowsari — Author, Software Engineer and AI Researcher"
+        },
+        "jobTitle": [
+          "Author",
+          "Software Engineer",
+          "AI Researcher"
+        ],
+        "description": "Faramarz Kowsari is an author, Software Engineer and AI researcher based in Istanbul. Focusing on the intersection of technology, education, and personal growth, he has published over 80 digital titles on international platforms. His areas of expertise span Artificial Intelligence, prompt engineering, modern trading strategies (Smart Money Concepts & algorithmic trading), as well as classical literature and mindfulness. In addition to writing, he develops web-based educational tools and creates specialized instructional video content.",
+        "identifier": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "ORCID",
+            "value": "0000-0003-1692-0453",
+            "url": "https://orcid.org/0000-0003-1692-0453"
+          },
+          {
+            "@type": "PropertyValue",
+            "propertyID": "Wikidata",
+            "value": "Q140389378",
+            "url": "https://www.wikidata.org/wiki/Q140389378"
+          }
+        ],
+        "sameAs": [
+          "https://www.wikidata.org/wiki/Q140389378",
+          "https://orcid.org/0000-0003-1692-0453",
+          "https://scholar.google.com/citations?user=G7tP5WMAAAAJ&hl=en",
+          "https://github.com/FaramarzKowsari",
+          "https://www.linkedin.com/in/faramarzkowsari",
+          "https://play.google.com/store/search?q=Faramarz_Kowsari&c=books",
+          "https://faramarzkowsari.github.io/",
+          "https://zenodo.org/search?q=creators.orcid%3A%220000-0003-1692-0453%22&l=list&p=1&s=10&sort=bestmatch"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://faramarzkowsari.github.io/crisis-signal-ai/#website",
+        "url": "https://faramarzkowsari.github.io/crisis-signal-ai/",
+        "name": "CrisisSignal AI",
+        "description": "Trustworthy, multilingual and multimodal crisis intelligence from noisy social streams.",
+        "publisher": {
+          "@id": "https://faramarzkowsari.github.io/#faramarz-kowsari"
+        }
+      },
+      {
+        "@type": "SoftwareSourceCode",
+        "@id": "https://doi.org/10.5281/zenodo.21463318",
+        "name": "CrisisSignal AI",
+        "version": "1.0.0",
+        "description": "A research and engineering platform for trustworthy, multilingual and multimodal crisis intelligence.",
+        "url": "https://faramarzkowsari.github.io/crisis-signal-ai/",
+        "codeRepository": "https://github.com/FaramarzKowsari/crisis-signal-ai",
+        "downloadUrl": "https://doi.org/10.5281/zenodo.21463318",
+        "programmingLanguage": "Python",
+        "runtimePlatform": "Python 3.11+",
+        "license": "https://opensource.org/licenses/MIT",
+        "identifier": "https://doi.org/10.5281/zenodo.21463318",
+        "sameAs": [
+          "https://doi.org/10.5281/zenodo.21463318",
+          "https://github.com/FaramarzKowsari/crisis-signal-ai"
+        ],
+        "author": {
+          "@id": "https://faramarzkowsari.github.io/#faramarz-kowsari"
+        },
+        "creator": {
+          "@id": "https://faramarzkowsari.github.io/#faramarz-kowsari"
+        },
+        "isPartOf": {
+          "@id": "https://faramarzkowsari.github.io/crisis-signal-ai/#website"
+        },
+        "isSupplementTo": {
+          "@type": "Book",
+          "@id": "https://doi.org/10.5281/zenodo.21459117",
+          "name": "Engineering Trustworthy Crisis Intelligence"
+        },
+        "citation": [
+          "https://doi.org/10.5281/zenodo.21463318",
+          "https://doi.org/10.5281/zenodo.21459117"
+        ]
+      }
+      {% if page and page.file and page.file.src_uri == "author.md" %}
+      ,{
+        "@type": "ProfilePage",
+        "@id": "https://faramarzkowsari.github.io/crisis-signal-ai/author/#profile-page",
+        "url": "https://faramarzkowsari.github.io/crisis-signal-ai/author/",
+        "name": "Faramarz Kowsari — Author and Verified Profiles",
+        "mainEntity": {
+          "@id": "https://faramarzkowsari.github.io/#faramarz-kowsari"
+        },
+        "isPartOf": {
+          "@id": "https://faramarzkowsari.github.io/crisis-signal-ai/#website"
+        }
+      }
+      {% endif %}
+    ]
+  }
+  </script>
+{% endblock %}
